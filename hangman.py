@@ -87,7 +87,7 @@ def lose(word):
     os.system("clear")
     print("You're so bad, you lost!")
     print(f"The word was {word}")
-    
+
 def main():
     os.system('clear')
     word = ""
@@ -111,7 +111,7 @@ def main():
         print(f"{anon_word}")
         print("\nEnter your guess\n")
         print("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
-
+        
         guess = ""
         while len(guess) != 1:
             guess = input("Please guess a letter:").lower()
